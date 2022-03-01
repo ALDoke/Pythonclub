@@ -1,5 +1,7 @@
 from django.test import TestCase
+from django.contrib.auth.models import User
 from .models import Meeting, MeetingMinutes, Resource, Event
+import datetime
 
 # Create your tests here.
 class MeetingTest(TestCase):
